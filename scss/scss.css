@@ -1,0 +1,628 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Libre+Franklin&family=Montserrat&family=Poppins&family=Roboto&family=Source+Sans+Pro:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.limit {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  height: 91px;
+  width: 100%;
+  gap: 626px;
+}
+.limit .box2 {
+  margin-left: -40px;
+}
+.limit .box2 a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6C6C6C;
+  margin-left: 40px;
+  transition: 0.4s ease;
+}
+.limit .box2 a:hover {
+  color: #fff;
+  background: crimson;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.limit .box2 a:active {
+  color: crimson;
+}
+.limit .box2 a img:nth-child(1) {
+  margin-right: 27px;
+}
+
+.lim {
+  background: url(/images/image.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 708px;
+  position: relative;
+}
+.lim .box h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #D77474;
+}
+.lim .box h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  width: 428px;
+}
+.lim .box img {
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+.lim .box p {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6C6C6C;
+}
+.lim .box button {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #AC1313;
+  padding: 19px 31px 21px 40px;
+  border: none;
+}
+
+.lim2 {
+  box-sizing: border-box;
+  height: 969px;
+}
+.lim2 .box {
+  margin-top: 120px;
+}
+.lim2 .box h4 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #D77474;
+}
+.lim2 .box h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 50px;
+}
+.lim2 .box h1 img {
+  margin-top: -50px;
+}
+.lim2 .box2 {
+  margin-top: 63px;
+  gap: 150px;
+}
+.lim2 .box3 {
+  margin-top: 90px;
+  gap: 142px;
+  box-sizing: border-box;
+}
+.lim2 .box3 .b3-page1 h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 36px;
+  width: 279px;
+}
+.lim2 .box3 .b3-page1 p {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C6C6C;
+  width: 501px;
+}
+.lim2 .box3 .b3-page2 h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 36px;
+  width: 323px;
+}
+.lim2 .box3 .b3-page2 p {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C6C6C;
+  width: 501px;
+}
+
+.lim3 {
+  position: relative;
+  height: 1032px;
+}
+.lim3 .box {
+  box-sizing: border-box;
+  gap: 86px;
+}
+.lim3 .box div h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+.lim3 .box div p {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C6C6C;
+  width: 388px;
+}
+.lim3 .box div h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.lim3 .box2 {
+  box-sizing: border-box;
+  gap: 86px;
+}
+.lim3 .box2 div h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+.lim3 .box2 div p {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C6C6C;
+  width: 388px;
+}
+.lim3 .box2 div h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.lim3 hr {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.lim4 {
+  height: 1597px;
+  box-sizing: border-box;
+}
+.lim4 .box {
+  margin-top: 120px;
+  box-sizing: border-box;
+}
+.lim4 .box h4 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #D77474;
+}
+.lim4 .box h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.lim4 .box button {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #AC1313;
+  padding: 20px 26px 20px 40px;
+  border: none;
+}
+.lim4 .box2 {
+  gap: 20px;
+  margin-top: 63px;
+}
+
+.lim5 {
+  background: url(/images/IMAGE\ \(2\).png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  box-sizing: border-box;
+  height: 471px;
+  position: relative;
+}
+.lim5 .box {
+  position: absolute;
+  top: 121px;
+  left: 144px;
+}
+.lim5 .box h4 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #D77474;
+}
+.lim5 .box h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+}
+.lim5 .box p {
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6C6C6C;
+  width: 421px;
+}
+.lim5 .box p a {
+  color: #AC1313;
+}
+.lim5 .box button {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #AC1313;
+  padding: 20px 26px 20px 40px;
+  border: none;
+}
+
+.lim6 {
+  height: 685px;
+}
+.lim6 .box {
+  margin-top: 121px;
+}
+.lim6 .box h4 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #D77474;
+  margin-top: 40px;
+}
+.lim6 .box h1 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 30px;
+}
+.lim6 .box h1 img {
+  margin-top: -50px;
+}
+.lim6 .box form {
+  margin-top: 63px;
+}
+.lim6 .box form input {
+  padding: 13px 40px 12px 10px;
+  min-width: 340px;
+  outline: none;
+}
+.lim6 .box form button {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #000000;
+  padding: 17px 9px 15px 9px;
+  border: none;
+}
+.lim6 .box img {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.lim7 {
+  background: rgba(219, 219, 219, 0.1);
+  height: 611px;
+  width: 100%;
+  margin: 0;
+}
+.lim7 .box img {
+  margin-top: 107px;
+}
+.lim7 .box p {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C6C6C;
+}
+.lim7 .box2 {
+  margin-top: 70px;
+}
+.lim7 .box2 .page h4 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 10px 0 20px 0;
+}
+.lim7 .box2 .page p {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #6C6C6C;
+  width: 167px;
+}
+.lim7 .box4 {
+  margin-top: 90px;
+}
+.lim7 .box3 {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 33px;
+}
+
+@media (max-width: 447px) {
+  section {
+    width: 100%;
+  }
+  section header .box2 {
+    display: none;
+  }
+  .lim {
+    padding: 10px;
+  }
+  .lim .box img {
+    display: none;
+  }
+  .lim .box h1 {
+    font-size: 30px;
+    width: 440px;
+  }
+  .lim .box2 img {
+    width: 100%;
+  }
+  .lim2 {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lim2 .box2 {
+    gap: 20px;
+  }
+  .lim2 .box3 {
+    gap: 20px;
+    margin: 10px;
+  }
+  .lim2 .box3 .b3-page1 p {
+    width: 440px;
+  }
+  .lim2 .box3 .b3-page2 p {
+    width: 440px;
+  }
+  .lim3 {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lim3 .box {
+    margin-top: 500px;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  .lim3 .box div img {
+    width: 440px;
+  }
+  .lim3 .box2 {
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  .lim3 .box2 img {
+    width: 440px;
+  }
+  .lim3 hr {
+    position: absolute;
+    top: -50px;
+  }
+  .lim4 {
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 200px;
+  }
+  .lim4 .box2 {
+    margin: 10px;
+  }
+  .lim4 .box {
+    width: 400px;
+  }
+  .lim5 {
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 2300px;
+  }
+  .lim5 .box {
+    left: 10px;
+  }
+  .lim6 {
+    width: 440px;
+  }
+  .lim7 {
+    min-height: 750px;
+  }
+  .lim7 .box3 {
+    width: 445px;
+  }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+  section {
+    width: 100%;
+  }
+  section header .box2 {
+    display: none;
+  }
+  .lim {
+    padding: 20px;
+  }
+  .lim .box img {
+    display: none;
+  }
+  .lim .box h1 {
+    font-size: 30px;
+  }
+  .lim .box2 img {
+    width: 100%;
+  }
+  .lim2 {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lim2 .box2 {
+    gap: 10px;
+  }
+  .lim2 .box3 {
+    gap: 20px;
+    margin: 10px;
+  }
+  .lim3 {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lim3 .box {
+    gap: 40px;
+    box-sizing: border-box;
+  }
+  .lim3 .box2 {
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  .lim3 hr {
+    position: absolute;
+    top: -50px;
+  }
+  .lim4 {
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 350px;
+  }
+  .lim4 .box2 {
+    margin: 10px;
+  }
+  .lim5 {
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 2300px;
+  }
+  .lim7 {
+    margin-top: -100px;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  section {
+    width: 100%;
+  }
+  section header .box2 {
+    display: none;
+  }
+  .lim {
+    padding: 20px;
+  }
+  .lim .box img {
+    display: none;
+  }
+  .lim .box2 img {
+    width: 100%;
+  }
+  .lim2 {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lim2 .box2 {
+    gap: 50px;
+  }
+  .lim2 .box3 {
+    gap: 20px;
+  }
+  .lim3 {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lim3 .box {
+    gap: 10px;
+    box-sizing: border-box;
+  }
+  .lim3 .box2 {
+    gap: 10px;
+    box-sizing: border-box;
+  }
+  .lim3 hr {
+    position: absolute;
+  }
+  .lim4 {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lim4 .box2 {
+    margin-top: 40px;
+    box-sizing: border-box;
+  }
+  .lim5 {
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 600px;
+  }
+  .lim7 {
+    margin-top: -150px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  section {
+    width: 100%;
+  }
+  section header .box2 {
+    display: none;
+  }
+  .lim7 {
+    margin-top: -150px;
+  }
+}/*# sourceMappingURL=scss.css.map */
